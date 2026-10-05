@@ -1,33 +1,23 @@
-# Ollie / Edit
+# Ollie Video Editing Portfolio
 
-A responsive portfolio and client-enquiry website for Ollie’s video-editing services.
+## Project goal
 
-## Current features
+This repository contains the website for **Ollie Video Editing** — a professional online portfolio and client-enquiry site for video-editing services.
 
-- Responsive, mobile-friendly one-page portfolio
-- Services, work placeholders, workflow and about sections
-- Quote/enquiry form layout with client-side validation
-- No client details are sent or stored yet: the form needs a secure backend or form provider before launch
+The goal is to present Ollie’s editing work in a clear, polished way, help potential clients understand the available services, and make it easy for them to request a personalised quote.
 
-## Preview locally
+## What the website is designed to do
 
-Open `index.html` in a browser, or use VS Code’s Live Server extension.
+- Showcase a professional video-editing portfolio and examples of completed work.
+- Communicate the style, quality, and value of Ollie’s editing services.
+- Explain the types of projects and editing services available.
+- Give prospective clients a simple way to get in touch and request a quote.
+- Build trust through a clean, modern, client-focused web experience.
 
-## Deploy on Cloudflare Pages
+## Intended audience
 
-1. In Cloudflare, open **Workers & Pages** and choose **Create application** → **Pages** → **Connect to Git**.
-2. Authorise GitHub and choose this repository.
-3. Use these settings for the current plain HTML site:
-   - Production branch: `main`
-   - Framework preset: `None`
-   - Build command: leave blank
-   - Build output directory: `.`
-4. Deploy. Future pushes to `main` will automatically redeploy the site.
+The site is aimed at creators, businesses, organisations, and individuals who need professional video editing for social media, promotional content, YouTube videos, events, or other visual projects.
 
-## Before launch checklist
+## Project status
 
-- Replace `your-email@example.com` in `index.html` with Ollie’s professional email address.
-- Replace the coloured project placeholders with actual video thumbnails, embedded reels or links.
-- Update services and availability so they match what Ollie offers.
-- Connect the quote form to a secure backend (for example, a Cloudflare Pages Function that validates the request and sends it via an email provider) or a trusted form service. Never add email-provider keys directly to `script.js` or `index.html`.
-- Add a privacy notice if you collect client contact details.
+This is an actively developed portfolio website. The design, content, and features may change as the business and portfolio grow.
