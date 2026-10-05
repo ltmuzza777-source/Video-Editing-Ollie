@@ -1,32 +1,30 @@
-# Current Site Status
+# Project Status
 
-## Overview
+**Last updated:** 5 October 2026 (AEST)
+**Overall status:** Active — core portfolio website is in place and the current main branch is clean.
 
-The Ollie Video Editing website is currently in its early development stage. The core files for a front-end portfolio and client-enquiry website have been created, and the project is being developed into a polished online presence for Ollie’s video-editing services.
+## Current state
 
-## Currently in the repository
+- The repository contains the responsive video-editing portfolio site, including `index.html`, `style.css`, and `script.js`.
+- The portfolio includes the **The Stories We Carry** and **Blade Runner 2049 Edit** projects.
+- A client FAQ section and contact-email update are included.
+- Cloudflare Workers static-asset deployment configuration is present in `wrangler.jsonc`.
+- Privacy and cookie pages are present: `privacy.html` and `cookies.html`.
 
-- `index.html` — the main structure and content of the website.
-- `style.css` — the visual styling, layout, colours, and responsive design.
-- `script.js` — interactive website behaviour and client-side functionality.
-- `wrangler.jsonc` — configuration for deployment or development using Cloudflare Wrangler.
-- `README.md` — an overview of the repository’s purpose and intended audience.
+## Latest change
 
-## Current focus
+- The latest commit removed the standalone `terms.html` page on 5 October 2026. The previously added page is therefore no longer part of the site.
 
-The site is currently focused on building the foundation of a professional video-editing portfolio website. This includes presenting Ollie’s services clearly, creating an appealing visual design, and preparing a straightforward way for potential clients to make contact or request a quote.
+## Repository health
 
-## Still to develop
+- Default branch: `main`
+- Open issues: none
+- Open pull requests: none
+- Latest commit: `64b3fd0a8cda7f13cf5143d39daad5e9f120706e` — `Delete terms.html`
 
-The project may continue to grow with:
+## Next checks
 
-- Completed portfolio examples, showreels, and project descriptions.
-- Finalised service packages or quote-request details.
-- Contact and enquiry form improvements.
-- Mobile-device testing and accessibility checks.
-- Deployment, domain setup, and final content review.
-
-## Status
-
-**Stage:** In active development  
-**Last updated:** 5 October 2026
+- Test the live site across mobile and desktop screen sizes.
+- Confirm all navigation and footer links work after removal of `terms.html`.
+- Review the privacy and cookie copy before public launch.
+- Add a replacement terms or legal page only if it is required for the site’s intended use.
